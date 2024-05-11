@@ -12,7 +12,7 @@ export const Dashboard = () => {
 					Welcome,
 					<span className="text-primary">{name}👋</span>
 				</h1>
-				<div className="flex flex-row justify-start w-full gap-5 ">
+				<div className="flex flex-row flex-wrap justify-start w-full gap-5 ">
 					<Card
 						heading="Commodity Trade This Week"
 						value="$1499"
@@ -34,7 +34,7 @@ export const Dashboard = () => {
 						change="+5% from last month"
 					/>
 				</div>
-				<div className="flex flex-row w-full gap-5 ">
+				<div className="flex flex-row flex-wrap w-full gap-5 ">
 					<RecentOrders />
 					<RecentUsers />
 					<div className="w-1/2">
