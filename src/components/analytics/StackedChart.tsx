@@ -55,7 +55,7 @@ const data = [
 
 export default function StackedChart() {
 	return (
-		<ResponsiveContainer width="100%" height={250}>
+		<ResponsiveContainer width="60%" height={250}>
 			<AreaChart
 				width={500}
 				height={400}
